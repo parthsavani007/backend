@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "rm -rf dist && babel backend -d dist",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
