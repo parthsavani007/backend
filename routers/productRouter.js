@@ -103,7 +103,7 @@ productRouter.delete('/:id',async (req, res) => {
 
 productRouter.post(
   '/',async (req, res) => {
-    console.log(req.body);
+   // console.log(req.body);
     const product = new Product({
           name: req.body.name,
           price: req.body.price,
